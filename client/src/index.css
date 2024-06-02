@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif !important;
+}
+input{
+    height: 45px !important;
+    border: 1px solid darkgreen !important;
+
+}
+input:focus{
+    height: 45px !important;
+    border: 1px solid rgb(1, 53, 1) !important;
+    box-shadow: none !important;
+    
+}
+
+Button{
+    height: 45px !important;
+    border: none;
+    color: black;
+}
+.btn-reg{
+    color:  rgb(1, 53, 1) ;
+    font-weight: 600;
+    font-size: larger;
+}
+.lg{
+    color:  rgb(1, 53, 1)
+}
+h1, h4{
+    color: rgb(1, 53, 1);
+    text-align: center;
+}
+Button{
+    height: 45px !important;
+    box-shadow: none;
+}
+nav{
+    color: rgb(1, 53, 1);
+    font-size: larger;
+    font-weight: 700;
+}
